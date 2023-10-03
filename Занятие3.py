@@ -1,6 +1,4 @@
-Python 3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> print("Введите числи а ")#1
+print("Введите числи а ") #1
 a=int(input())
 print("Введите число b ")
 b=int(input())
@@ -9,19 +7,19 @@ c=int(input())
 print("Сумма", a+b+c)
 
 
-print("введите 1 катет-")#2
+print("введите 1 катет-") #2
 a=int(input())
 print("введите 2 катет-")
 b=int(input())
 print("Площадь", 1/2*a*b)
 
 
-print("введите количество минут с начала суток")#3
+print("введите количество минут с начала суток") #3
 a=int(input())
 print("Время", (a//60)%24, a%60)
 
 
-print("введите расстояние между рядами")#4
+print("введите расстояние между рядами") #4
 a=int(input())
 print("введите расстояние между дырочками")
 b=int(input())
@@ -32,7 +30,7 @@ N=int(input())
 print(2*N+(2*l-1)*a+2*(l-1)*b)
 
 
-print("введите первое число")#5
+print("введите первое число") #5
 a=int(input())
 print("введите второе ")
 b=int(input())
@@ -47,7 +45,7 @@ else:
 print("Наименьшее", d)
 
 
-print("введите строку 1")#6
+print("введите строку 1") #6
 a=int(input())
 print("введите столбец 1")
 b=int(input())
@@ -63,7 +61,7 @@ else:
     print("нет")
 
 
-print("введите год")#7
+print("введите год") #7
 a=int(input())
 if a%4==0 and a%100!=0:
     print("да")
@@ -73,7 +71,7 @@ else:
     print("нет")
 
 
-print("введите первое число")#8
+print("введите первое число") #8
 a=int(input())
 print("введите второе ")
 b=int(input())
@@ -87,7 +85,7 @@ else:
     print(0)
 
 
-print("введите первое число")#9
+print("введите первое число") #9
 a=int(input())
 print("введите второе ")
 b=int(input())
