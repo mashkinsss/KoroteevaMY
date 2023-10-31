@@ -7,4 +7,3 @@ def ppppp(n):
 n=int(input())
 r= ppppp(n)
 print(r)
-SyntaxError: invalid syntax
