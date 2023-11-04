@@ -1,0 +1,14 @@
+#
+def code(n):
+	t = n[0]
+	n[0] = n[-1]
+	n[-1] = t
+def prozedura():
+	m = int(input("Введите длину массива: "))
+	A = []
+	for i in range(m):
+		e = int(input("Введите элемент массива: "))
+		A. append(e)
+		print ("Исходный массив:", А) code (A)
+    print ("Массив после замены:", А)
+prozedura()
