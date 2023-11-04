@@ -1,4 +1,4 @@
-#
+# -- coding: utf-8 --
 def code(n):
 	t = n[0]
 	n[0] = n[-1]
