@@ -1,4 +1,4 @@
-# -- coding: utf-8 --
+# -- coding: utf-8 -- 
 def code(num) :
 	p = [int(d) for d in str(num)]
 	for k in p:
