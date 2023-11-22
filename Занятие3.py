@@ -1,4 +1,5 @@
-print("Введите числи а ") #1
+
+# -- coding: utf-8 --print("Введите числи а ") #1
 a=int(input())
 print("Введите число b ")
 b=int(input())
@@ -6,19 +7,19 @@ print("Введите число c ")
 c=int(input())
 print("Сумма", a+b+c)
 
-
+# -- coding: utf-8 --
 print("введите 1 катет-") #2
 a=int(input())
 print("введите 2 катет-")
 b=int(input())
 print("Площадь", 1/2*a*b)
 
-
+# -- coding: utf-8 --
 print("введите количество минут с начала суток") #3
 a=int(input())
 print("Время", (a//60)%24, a%60)
 
-
+# -- coding: utf-8 --
 print("введите расстояние между рядами") #4
 a=int(input())
 print("введите расстояние между дырочками")
@@ -29,7 +30,7 @@ print("введите количество дырочек")
 N=int(input())
 print(2*N+(2*l-1)*a+2*(l-1)*b)
 
-
+# -- coding: utf-8 --
 print("введите первое число") #5
 a=int(input())
 print("введите второе ")
@@ -44,7 +45,7 @@ else:
     d=c
 print("Наименьшее", d)
 
-
+# -- coding: utf-8 --
 print("введите строку 1") #6
 a=int(input())
 print("введите столбец 1")
@@ -60,7 +61,7 @@ if e+f==0:
 else:
     print("нет")
 
-
+# -- coding: utf-8 --
 print("введите год") #7
 a=int(input())
 if a%4==0 and a%100!=0:
@@ -70,7 +71,7 @@ elif a%400==0:
 else:
     print("нет")
 
-
+# -- coding: utf-8 --
 print("введите первое число") #8
 a=int(input())
 print("введите второе ")
@@ -84,7 +85,7 @@ elif a==b or b==c or a==c:
 else:
     print(0)
 
-
+# -- coding: utf-8 --
 print("введите первое число") #9
 a=int(input())
 print("введите второе ")
