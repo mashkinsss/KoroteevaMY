@@ -1,9 +1,11 @@
+# -- coding: utf-8 --
 a=int(input())#1
 b=int(input())
 while a<=b:
     print(a)
     a=a+1
 
+# -- coding: utf-8 --
 a=int(input())#2
 b=int(input())
 if a<b:
@@ -15,6 +17,7 @@ else:
         print(a)
         a=a-1
 
+# -- coding: utf-8 --
 a=int(input())#3
 b=int(input())
 while a>=b:
@@ -22,6 +25,7 @@ while a>=b:
         print(a)
     a=a-1
 
+# -- coding: utf-8 --
 print("введите кол-во n")#4
 n=int(input())
 b=0
@@ -32,6 +36,7 @@ while n>0:
     n=n-1
 print(b)
 
+# -- coding: utf-8 --
 print("введите число n")#5
 n=int(input())
 b=0
@@ -41,6 +46,7 @@ while n>0:
     n=n-1
 print(b)
 
+# -- coding: utf-8 --
 print("введите число n")#6
 n=int(input())
 b=1
@@ -49,6 +55,7 @@ while n>0:
     n=n-1
 print(b)
 
+# -- coding: utf-8 --
 print("введите число n")#7
 n=int(input())
 b=1
@@ -60,12 +67,14 @@ while v<=n:
     v=v+1
 print(c)
 
+# -- coding: utf-8 --
 n = int(input()) #8
 for i in range(1, n + 1):
     for j in range(1, i + 1):
         print(j,end="")
     print()
 
+# -- coding: utf-8 --
 n=int(input()) #9
 f1=1
 f2=1
@@ -79,6 +88,7 @@ while k<=n:
     k+=1
 print(s)
 
+# -- coding: utf-8 --
 n=int(input()) #10
 K=int(input())
 f1=f2=1
