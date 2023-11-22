@@ -1,5 +1,5 @@
-
-# -- coding: utf-8 --print("Введите числи а ") #1
+# -- coding: utf-8 --
+print("Введите числи а ") #1
 a=int(input())
 print("Введите число b ")
 b=int(input())
