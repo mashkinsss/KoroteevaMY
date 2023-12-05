@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def numbers(n):
     x = []
     while n != 0:
