@@ -1,15 +1,9 @@
 # -- coding: utf-8 --
-def code(matrix):
-  for row in matrix:
-    print(row)
-def code2(matrix):
-  r = len(matrix)
-  c = len(matrix[0])
-  t = [[0 for _ in range(r)] for _ in range(c)]
-  for i in range(r):
-    for j in range(c):
-      t [j][i]= matrix  [j] [i]
-  return t
-matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] 
-s = code2(matrix)
-print(s)
+def code2(matrix):  A = []
+  j = 0  while j < len(matrix[1]):
+    B = []    for i in range(len(matrix)):
+      B.append(matrix[i][j])    j += 1
+    A.append(B)  for i in range(len(A)):
+    for j in range(len(A[0])):      print(A[i][j], end=' ')
+    print()matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+code2(matrix)
