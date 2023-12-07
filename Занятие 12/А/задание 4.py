@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def GetSumA(A):
     global s
     if A == 0:
