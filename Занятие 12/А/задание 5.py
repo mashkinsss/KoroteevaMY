@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def GetSumA(A):
     if A // 10 == 0:
         return A
