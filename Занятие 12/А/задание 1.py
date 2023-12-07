@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def Solution(N):
     global X
     if N == 0:
