@@ -1,3 +1,4 @@
+ # -- coding: utf-8 --
 matrix = []
 
 with open('vvod', 'r') as file:
