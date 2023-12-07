@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def number(n, i=2):
     if n <= 2:
         return n == 2
