@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def number(a, b):
     if a <= b:
         if a == b:
