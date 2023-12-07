@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def GetInverseNumber(A):
     global x
     if A == 0:
