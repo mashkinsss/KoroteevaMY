@@ -1,0 +1,22 @@
+matrix = []
+
+with open('vvod', 'r') as file:
+    for line in file:
+        row = [int(num) for num in line.split()]
+        matrix.append(row)
+
+
+def code2(matrix):
+  A = []
+  j = 0
+  while j < len(matrix[1]):
+    B = []
+    for i in range(len(matrix)):
+      B.append(matrix[i][j])
+    j += 1
+    A.append(B)
+  with open("vivod", 'w') as file1:
+    for row in A:
+      s = ' '.join(map(str, row))
+      file1.write(s + '\n')
+code2(matrix)
