@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def DivAandB(A, B):
     if A < B:
         return 0
